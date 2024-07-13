@@ -130,7 +130,7 @@ const checkUserSequence=()=>{
     if (userSequence.length===gameSequence.length){
         console.log("Correct sequence!");
         level++;
-        // displayLevel.innerText=`Level: ${level}`;
+        displayLevel.innerText=`Level: ${level}`;
         displayScore.innerText=`Score: ${level-1}`;
         userSequence=[];
         setTimeout(()=>{
