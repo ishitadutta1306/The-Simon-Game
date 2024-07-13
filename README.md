@@ -8,6 +8,11 @@ Welcome to **The Simon Game**! This classic memory game tests your ability to re
 4. **Progress:** If you repeat the sequence correctly, you will advance to the next level, where the sequence will become longer.
 5. **Game Over:** If you click the wrong sequence, the game is over. Your score will be displayed, and you can start a new game by clicking anywhere on the screen again.
 
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+
 ## Installation
 To run this game locally, follow these steps:
 1. **Clone the repository:**
@@ -22,6 +27,6 @@ To run this game locally, follow these steps:
     ```sh
     open index.html
     ```
-Or click on [this]() link.
+Or click on [this](https://ishitadutta1306.github.io/The-Simon-Game/) link to play the game directly in your web browser. 
 
 #### This project was created by [Ishita Dutta](https://github.com/ishitadutta1306). Please feel free to contribute by submitting pull requests or reporting issues. 
