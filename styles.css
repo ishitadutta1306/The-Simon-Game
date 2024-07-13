@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+.press-start-2p-regular {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #011f3f;
+    text-align: center;
+    color: #fef2bf;
+    font-family: "Press Start 2P", system-ui;
+
+}
+
+h1,h2{
+    margin: 1rem;
+}
+#display-level, #display-score, #display-game-over{
+    font-size: 1.5rem;
+    margin: 1rem;
+    display: none;
+}
+
+#game-container{
+    height: 28.44rem;
+    width: 28.44rem;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+.quarters{
+    height: 14.06rem;
+    width: 14.06rem;
+    border: 2px solid black;
+    cursor: pointer;
+}
+#red{
+    background-color: #7b182c;
+    /* background-color: #ff4d4d; */
+    border-top-left-radius: 100%;
+}
+#green{
+    background-color: #1A5319;
+    /* background-color: #33cc33; */
+    border-top-right-radius: 100%;
+}
+#yellow{
+    background-color: #b59e1c;
+    /* background-color: #ffff66; */
+    border-bottom-right-radius: 100%;
+}
+#blue{
+    background-color: #0c4f87;
+    /* background-color: #3399ff; */
+    border-bottom-left-radius: 100%;
+}
+
+#center-circle{
+    background-color: #011f3f;
+    height: 9.38rem;
+    width: 9.38rem;
+    border-radius: 50%;
+    border: 3px solid black;
+    position: absolute; /*placed based on the position of its ancestor*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#center-circle span{
+    font-size: 1.5rem;
+}
+
+/* #display-high-score{
+
+} */
+
+@media (max-width: 600px){
+    body{
+        height: 90vh;
+    }
+    #game-container{
+        height: 20rem;
+        width: 20rem;
+    }
+    .quarters{
+        height: 10rem;
+        width: 10rem;
+    }
+    #center-circle{
+        height: 6rem;
+        width: 6rem;
+    }
+    #center-circle span{
+        font-size: 1rem;
+    }
+}
