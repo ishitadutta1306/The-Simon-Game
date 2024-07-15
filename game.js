@@ -79,7 +79,7 @@ quarters.forEach((quarter)=>{
         console.log(clicked," was clicked");
 
         //add clicking sound
-        clickSound.play(clicked);
+        clickSound.play();
 
         //change background color of the quarter on click
         changeBgColor(quarter);
